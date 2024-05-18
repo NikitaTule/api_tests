@@ -1,5 +1,4 @@
-import pytest
-from my_test_project.api_client import get_post
+from api_client import get_post
 
 
 def test_get_post_status_code(post_id):
